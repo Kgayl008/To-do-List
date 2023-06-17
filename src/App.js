@@ -1,9 +1,10 @@
-
+import TodoWrapper from "./components/TodoWrapper";
 
 function App() {
   return (
-    <div className="App">
+    <div>
     <h1>To-do List</h1>
+    <TodoWrapper/>
     </div>
   );
 }
